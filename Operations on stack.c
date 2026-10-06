@@ -63,6 +63,7 @@ int main()
         printf("\n1. Push\n");
         printf("2. Pop\n");
         printf("3. Display\n");
+        printf("4.Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
@@ -79,6 +80,8 @@ int main()
             case 3:
                 display();
                 break;
+            case 4:
+                exit(0);
 
             default:
                 printf("Invalid Input\n");
